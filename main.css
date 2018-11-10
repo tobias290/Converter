@@ -1,0 +1,107 @@
+#main  {
+    background-color: #1D1D1D;
+}
+
+* {
+    font-size: 14px;
+    font-family: 'Krub', sans-serif;
+}
+
+.QWidget, .QScrollArea {
+    background-color: transparent;
+}
+
+.QLineEdit {
+    background: white;
+    border: none;
+    font-size: 20px;
+    padding-left: 10px;
+    /* margin-bottom: 5px; */
+}
+
+.QComboBox#combo {
+    border: none;
+    border-left: 1px solid rgba(212, 212, 212, .8);
+    /* margin-bottom: 5px; */
+}
+
+QComboBox::drop-down {
+   border: none;
+}
+
+QComboBox::down-arrow {
+    image: url(images/app/down-arrow.png);
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.result {
+    /* background-color: #007DA4; */
+    background-color: #1D1D1D;
+    border: none;
+    border-bottom: 1px solid rgba(212, 212, 212, .5);
+    color: white;
+    padding-left: 10px;
+}
+
+.no-border {
+    border-bottom: none;
+}
+
+.QPushButton#convert {
+    background-color: #1DB954;
+    border: none;
+    color: white;
+    /* color: #1DB954; */
+    font-weight: 900;
+    /* margin: 0 5px 5px 5px; */
+}
+
+.QPushButton#convert:hover {
+    background-color: #1AA64B;
+    color: white;
+}
+
+.QPushButton#clear {
+    background-color: #C53D31;
+    border: none;
+    color: white;
+    /* color: #C53D31; */
+    font-weight: 900;
+    /* margin: 0 5px 5px 0 */
+}
+
+.QPushButton#clear:hover {
+    background-color: #Af362C;
+    color: white;
+}
+
+
+.QLabel#current-category {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.QLabel#previous-category, .QLabel#next-category {
+    color: #999999;
+    font-size: 16px;
+}
+
+.QLabel#previous-category:hover, .QLabel#next-category:hover {
+    color: #999999;
+}
+
+.QScrollBar:vertical {
+    width: 10px;
+    background-color: white;
+}
+
+.QScrollBar::handle:vertical {
+    background-color: #999999;
+}
+
+.QScrollBar::handle:vertical:hover {
+    background-color: #777777;
+}
